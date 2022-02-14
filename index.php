@@ -1,9 +1,4 @@
-<?php 
-include ('include/conexion.php'); 
-$db = new db_pruebas(); 
-$busqueda = $db->getDatos();
-$estado = $db->getEstado();
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

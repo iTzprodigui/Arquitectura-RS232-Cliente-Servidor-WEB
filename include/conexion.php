@@ -4,7 +4,7 @@
         
         function __construct(){
             try {
-                $this->conexion = new PDO('mysql:host=localhost:3307;dbname=arquitectura', 'root','');
+                $this->conexion = new PDO('mysql:host=us-cdbr-east-05.cleardb.net:3306;dbname=heroku_b12051f8ce063df', 'b0e3b4aa16ee67','5429d4ab');
                 $this->conexion->exec("set names utf8");
             }catch (PDOException $e) {
                 echo $e->getMessage();
